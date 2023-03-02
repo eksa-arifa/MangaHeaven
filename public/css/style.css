@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    background: crimson;
+}
+
+nav .title{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+.container{
+    width: 800px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.title{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 10px;
+}
+
+.kotak{
+    width: 100%;
+    padding: 10px;
+}
+
+.kotak a{
+    width: 100%;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    color: black;
+    margin: 10px 20px;
+}
+
+.kotak a .image{
+    width: 200px;
+    margin-right: 20px;
+}
+
+.kotak a .image img{
+    width: 200px;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.kotak a .info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.thumbnail{
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.thumbnail img{
+    width: 200px;
+}
+
+.info{
+    text-align: center;
+    padding: 0 10px;
+}
+
+.info ul li{
+    list-style: none;
+}
+
+.chapter{
+    width: 100%;
+    padding: 0 10px;
+}
+
+.chapter a{
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    margin: 20px 0;
+    display: block;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.gambar{
+    width: 100%;
+}
+
+.gambar img{
+    width: 100%;
+    margin: 15px 0;
+}
+
+form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+}
+form input{
+    width: 400px;
+    padding: 10px;
+    outline: none;
+    border-radius: 10px;
+}
+form button{
+    width: auto;
+    padding: 10px;
+    outline: none;
+    border-radius: 10px;
+}
+
+footer{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: crimson;
+}
+
+footer .bacodan{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+footer a{
+    font-size: 23px;
+    text-decoration: none;
+    color: white;
+}
+
+@media(max-width: 800px){
+    .container{
+        width: 100%;
+    }
+    .kotak{
+        padding: 0 10px;
+    }
+
+    .kotak a{
+        flex-direction: column;
+        margin: 20px 0;
+    }
+
+    .kotak a .image{
+        width: 100%;
+    }
+    .kotak a .image img{
+        width: 100%;
+    }
+}
